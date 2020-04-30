@@ -51,7 +51,7 @@ if(isset($_POST['submit']))
 
     hr {
         margin-top: 150px;
-        margin-bottom: 20px;
+        margin-bottom: 0;
         border: 0;
         border-top: 1px solid #eee;
     }
