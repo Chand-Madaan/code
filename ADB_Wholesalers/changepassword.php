@@ -55,6 +55,12 @@ if(isset($_POST['submit']))
         border: 0;
         border-top: 1px solid #eee;
     }
+    body {
+        padding: 10px;
+        margin: 10px;
+        background: #FFF;
+        font-family: 'Dosis', sans-serif;
+    }
 
     .page-header {
         padding-bottom: 9px;

@@ -5,17 +5,40 @@ include "headerfiles.php";
 ?>
 <style>
 
+    body {
+        padding: 10px;
+        margin: 10px;
+        background: #FFF;
+        font-family: 'Dosis', sans-serif;
+    }
+
     hr {
-        margin-top: 150px;
+        margin-top: 40px;
         margin-bottom: 0;
         border: 0;
         border-top: 1px solid #eee;
     }
 
 
-    .nav > li {
+    .nav li {
         position: relative;
         display: inline-block;
+    }
+
+    nav {
+        padding: 10px 60px;
+        list-style: none;
+        text-align: center;
+        height: auto;
+        background-color: whitesmoke;
+        opacity: .8;
+        box-sizing: content-box;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 20px;
+        text-decoration: none;
+        color: white;
+        display: block;
     }
 
     a {

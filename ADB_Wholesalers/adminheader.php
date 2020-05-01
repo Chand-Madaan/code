@@ -2,9 +2,18 @@
 include "connection.php";
 include "headerfiles.php";
 ?>
+
 <style>
     .nav li{
-        display:inline-block;}
+        display:inline-block;
+    }
+
+    body {
+        padding: 10px;
+        margin: 10px;
+        background: #FFF;
+        font-family: 'Dosis', sans-serif;
+    }
 
 
 .container {

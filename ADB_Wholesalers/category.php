@@ -14,6 +14,12 @@ $i= 1;
         border: 0;
         border-top: 1px solid #eee;
     }
+    body {
+        padding: 10px;
+        margin: 10px;
+        background: #FFF;
+        font-family: 'Dosis', sans-serif;
+    }
 
     .row {
         margin-left: 0;
